@@ -18,7 +18,7 @@
   package and \code{extdata} contains the IDAT files.
 }
 \seealso{
-  \code{\link[minfi]{RGChannelSet-class}} for the class definition,
+  \code{\link[minfi]{RGChannelSet}} for the class definition,
   \code{\link{MsetEx}} for the comparion preprocessed data.
 }
 \examples{

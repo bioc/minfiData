@@ -1,7 +1,6 @@
 library(minfi)
-targets <- read.csv("../extdata/SampleSheet.csv",
-                    stringsAsFactors = FALSE, skip = 7)
-RGsetEx <- read.450k.exp(basedir = "../extdata", targets)
-save(RGsetEx, file = "../../data/RGsetEx.rda")
+sheet <- read.450k.sheet("../extdata", pattern = "csv$")
+RGsetEx <- read.450k.exp(targets = sheet)
+save(RGsetEx, file = "../../data/RGsetEx.rda", compress = "xz")
 MsetEx <- preprocessRaw(RGsetEx)
-save(MsetEx, file = "../../data/MsetEx.rda")
+save(MsetEx, file = "../../data/MsetEx.rda", compress = "xz")

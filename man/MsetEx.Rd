@@ -21,7 +21,7 @@
 
 }
 \seealso{
-  \code{\link[minfi]{MethylSet-class}} for the class definition,
+  \code{\link[minfi]{MethylSet}} for the class definition,
   \code{\link[minfi]{preprocessRaw}} for the preprocessing function,
   \code{\link{RGsetEx}} for the companion raw data.
 }
