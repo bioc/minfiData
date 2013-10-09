@@ -1,5 +1,5 @@
 Package: minfiData
-Version: 0.3.4
+Version: 0.4.0
 Title: Example data for the Illumina Methylation 450k array
 Description: Data from 6 samples across 2 groups from 450k methylation arrays
 Author: Kasper Daniel Hansen, Martin Aryee, Winston Timp
@@ -8,7 +8,7 @@ License: Artistic-2.0
 Depends: R (>= 2.13.0),
 	 minfi,
 	 IlluminaHumanMethylation450kmanifest,
-	 IlluminaHumanMethylation450kannotation.ilmn.v1.2
+	 IlluminaHumanMethylation450kanno.ilmn12.hg19
 LazyData: yes
 biocViews: DNAMethylation
 
