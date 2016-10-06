@@ -14,7 +14,7 @@
 data(MsetEx)
 data(MsetEx.sub)
 }
-\format{
+\value{
     An object of class \code{"MethylSet"}
 }
 \details{

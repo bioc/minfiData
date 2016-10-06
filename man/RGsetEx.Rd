@@ -13,7 +13,7 @@
 data(RGsetEx)
 data(RGsetEx.sub)
 }
-\format{
+\value{
   An object of class \code{"RGChannelSet"}
 }
 \details{
