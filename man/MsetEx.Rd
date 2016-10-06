@@ -1,5 +1,6 @@
 \name{MsetEx}
 \alias{MsetEx}
+\alias{MsetEx.sub}
 \docType{data}
 \title{
   An example dataset for Illumina's Human Methylation 450k dataset,
@@ -9,7 +10,10 @@
   This contains the raw data for 6 samples from Illumina's Human
   Methylation 450k dataset. The data has been preprocessed.
 }
-\usage{data(MsetEx)}
+\usage{
+data(MsetEx)
+data(MsetEx.sub)
+}
 \format{
     An object of class \code{"MethylSet"}
 }
@@ -19,6 +23,8 @@
   package and \code{extdata} contains the IDAT files.  The data has been
   preprocessed using \code{preprocessRaw}.
 
+  The \code{MsetEx.sub} is a subset with 600 CpGs (200 of Type II, 200
+  of Type I - Red and 200 of Type II - Green), used for examples.  
 }
 \seealso{
   \code{\link[minfi]{MethylSet}} for the class definition,
@@ -27,6 +33,7 @@
 }
 \examples{
 data(MsetEx)
+data(MsetEx.sub)
 pData(MsetEx)
 }
 \keyword{datasets}
